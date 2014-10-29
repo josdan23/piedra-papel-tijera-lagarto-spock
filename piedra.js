@@ -23,7 +23,7 @@ if ( opcionUsuario == opcionMaquina)  // si las elecciones son iguales
 {
 	mensaje(opciones[opcionUsuario], opciones[opcionMaquina], "\nEMPATE!");
 }
-else if ( opciones[opcionUsuario] == "Piedra") // si elegiste "Piedra"
+else if ( opciones[opcionUsuario] == "Piedra" ) // el usuario elige "Piedra"
 {
 	if ( (opciones[opcionMaquina] == "Tijera") || (opciones[opcionMaquina] == "Lagarto")) // la máquina elige "Tijera" o "Spock"
 	{
@@ -34,7 +34,7 @@ else if ( opciones[opcionUsuario] == "Piedra") // si elegiste "Piedra"
 		mensaje(opciones[opcionUsuario], opciones[opcionMaquina], "\nPERDISTE!");
 	}
 }
-else if ( opciones[opcionUsuario] == "Papel")
+else if ( opciones[opcionUsuario] == "Papel") //El usuario elige "Piedra"
 {
 	if (opciones[opcionMaquina] == "Piedra" || opciones[opcionMaquina] == "Spock") // la máquina eligió "Piedra" o "Spock"
 	{
@@ -45,7 +45,7 @@ else if ( opciones[opcionUsuario] == "Papel")
 		mensaje(opciones[opcionUsuario], opciones[opcionMaquina], "\nPERDISTE!");
 	}
 }
-else if (opciones[opcionUsuario] == "Tijera")
+else if (opciones[opcionUsuario] == "Tijera") //El usuario elige "Tijera"
 {
 	if (opciones[opcionMaquina] == "Papel" || opciones[opcionMaquina] == "Lagarto") // la máquina eligío "Papel" o "Lagarto"
 	{
@@ -56,7 +56,7 @@ else if (opciones[opcionUsuario] == "Tijera")
 		mensaje(opciones[opcionUsuario], opciones[opcionMaquina], "\nGANASTE!");
 	}
 }
-else if (opciones[opcionUsuario] == "Lagarto")
+else if (opciones[opcionUsuario] == "Lagarto") //El usuario elige "Lagarto"
 {
 	if (opciones[opcionMaquina] == "Papel" || opciones[opcionMaquina] == "Spock") // la máquina eligió "Papel" o "Spock"
 	{
@@ -67,7 +67,7 @@ else if (opciones[opcionUsuario] == "Lagarto")
 		mensaje(opciones[opcionUsuario], opciones[opcionMaquina], "\nPERDISTE!");
 	}
 }
-else if (opciones[opcionUsuario] == "Spock")
+else if (opciones[opcionUsuario] == "Spock") //El usuario elige "Spock"
 {
 	if (opciones[opcionMaquina] == "Piedra" || opciones[opcionMaquina] == "Tijera") // la máquina eligió "Piedra" o "Tijera"
 	{
